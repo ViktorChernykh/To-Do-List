@@ -3,7 +3,7 @@
 //  To Do List
 //
 //  Created by Viktor on 02/05/2019.
-//  Copyright © 2019 Denis Bystruev. All rights reserved.
+//  Copyright © 2019 Chernykh Viktor. All rights reserved.
 //
 
 import  UIKit

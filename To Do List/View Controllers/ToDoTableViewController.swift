@@ -11,7 +11,7 @@ import UIKit
 class ToDoTableViewController: UITableViewController {
     let configurator = Configurator()
     
-    var todos = [ToDo]()
+    var todos: [ToDo]!
 }
 
 // MARK: - Navigation

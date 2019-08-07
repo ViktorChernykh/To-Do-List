@@ -79,12 +79,12 @@ class Configurator {
         if controller.isEditing {
             cell.dateLabel.isHidden = true
             cell.datePicker.isHidden = false
+            cell.datePicker.date = value
         } else {
             cell.dateLabel.isHidden = false
             cell.datePicker.isHidden = true
             cell.dateLabel.text = value.formatted
         }
-
         cell.datePicker.minimumDate = Date()
 
         return cell
