@@ -19,6 +19,11 @@ extension ToDoItemViewController: UITextFieldDelegate {
 
 extension ToDoItemViewController {
     
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        view.endEditing(true)
+    }
+    
     func addTapGestureToHideKeyboard() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self,
                                                                  action: #selector(dismissKeyboard))

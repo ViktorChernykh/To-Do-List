@@ -189,7 +189,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Denis Bystruev";
+				ORGANIZATIONNAME = "Viktor Chernykh";
 				TargetAttributes = {
 					6909DC20227223D6001E3445 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -393,11 +393,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5TN22FY2J;
 				INFOPLIST_FILE = "$(SRCROOT)/To Do List/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.victorsoft.To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.viktorsoft.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,11 +412,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5TN22FY2J;
 				INFOPLIST_FILE = "$(SRCROOT)/To Do List/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.victorsoft.To-Do-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.viktorsoft.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
